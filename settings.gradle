@@ -1,2 +1,2 @@
-include ':app', ':wdanalytics'
+include ':app'
 rootProject.name='WdAnalytics'
