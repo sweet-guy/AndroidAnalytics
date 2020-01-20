@@ -12,9 +12,18 @@
 ## 10.Sdk中使用的jar 包和三方库
 ## 11.历史版本
 ## 12.常见问题
+`内网：`
  [![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen.svg)](http://192.168.6.133:8888/nexus/content/repositories/WdMobile/com/wdcloud/analytic/analytic-release/)
+`外网：`
+[![](https://jitpack.io/v/sweet-guy/WdAnalytics.svg)](https://jitpack.io/#sweet-guy/WdAnalytics)
 ## 开始集成：
 ### 1.	导入统计SDK
+`方法1：`
+### 项目根目录build.gradle中添加
+### maven { url "https://jitpack.io" }
+### 导入依赖
+### implementation 'com.github.sweet-guy:WdAnalytics:2.0.0' （以最新为主）
+`方法2：`
 #### 在根项目build.gradle allprojects中配置Maven库
 
 `maven{url 'http://192.168.6.133:8888/nexus/content/repositories/WdMobile/'}`
