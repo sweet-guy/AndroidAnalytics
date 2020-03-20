@@ -109,8 +109,3 @@
     
 ### 12.常见问题（GreenDao数据库3.0.0版本冲突）
     删除本地 DaoMaster丶DaoSession丶xxDao文件，重新编译生成。
-    
-   ![avatar](https://img-blog.csdn.net/20171019200939119?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvS2Vud2F5MDkwNzA0/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
-   
-   
-    
