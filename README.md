@@ -24,8 +24,6 @@
 `方法2：`
 #### 在根项目build.gradle allprojects中配置Maven库
 
-`maven{url 'http://192.168.6.133:8888/nexus/content/repositories/'}`
-
 #### 在App build.gradle中导入统计sdk远程依赖
 `implementation ('com.wdcloud.analytic:analytic-release:1.0.8') （最新版本为1.0.8）`
 
@@ -45,7 +43,7 @@
 
 ### 4.统计初始化
 
-    WdAnalytics.init(Context this, String "人人通", Boolen true, int 0);
+    WdAnalytics.init(Context this, String "xxx", Boolen true, int 0);
     
     参数说明：
     当前上下文，项目名称，是否开启日志，上传时间间隔（分钟）默认为5分钟
