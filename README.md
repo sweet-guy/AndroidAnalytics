@@ -1,4 +1,4 @@
-# 伟东云统计SDK Android集成文档和说明
+# 统计SDK Android集成文档和说明
 ## 目录：
 ## 1.导入SDK
 ## 2.统计服务注册
@@ -24,7 +24,7 @@
 `方法2：`
 #### 在根项目build.gradle allprojects中配置Maven库
 
-`maven{url 'http://192.168.6.133:8888/nexus/content/repositories/WdMobile/'}`
+`maven{url 'http://192.168.6.133:8888/nexus/content/repositories/'}`
 
 #### 在App build.gradle中导入统计sdk远程依赖
 `implementation ('com.wdcloud.analytic:analytic-release:1.0.8') （最新版本为1.0.8）`
